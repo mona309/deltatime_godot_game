@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3 uid="uid://cm1c07sxgoxef"]
+
+[ext_resource type="Texture2D" uid="uid://c6cqomjp43ba3" path="res://map.jpeg" id="1_vdv72"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(18688, 50752)
+scale = Vector2(105.75, 102.875)
+texture = ExtResource("1_vdv72")
+
+[node name="Button" type="Button" parent="Sprite2D"]
+offset_left = 342.0
+offset_top = 23.0
+offset_right = 449.0
+offset_bottom = 93.0
+text = "HOUSE"
+
+[node name="Button5" type="Button" parent="Sprite2D"]
+offset_left = 187.0
+offset_top = 371.0
+offset_right = 300.0
+offset_bottom = 448.0
+text = "GARDEN"
+
+[node name="Button4" type="Button" parent="Sprite2D"]
+offset_left = -269.0
+offset_top = -9.0
+offset_right = -140.0
+offset_bottom = 71.0
+text = "RESTAURANT"
+
+[node name="Button2" type="Button" parent="Sprite2D"]
+offset_left = -64.7376
+offset_top = 408.758
+offset_right = 101.262
+offset_bottom = 482.758
+text = "MERCHANT GUILD"
+
+[node name="Button3" type="Button" parent="Sprite2D"]
+offset_left = -428.0
+offset_top = 88.0
+offset_right = -278.0
+offset_bottom = 176.0
+text = "MARKET"
